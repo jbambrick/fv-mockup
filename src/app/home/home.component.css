@@ -1,0 +1,16 @@
+* {
+    text-align: center;
+}
+
+#header {
+    background-color: red;
+    color: white;
+    margin: 0;
+    border: none;
+    padding: 10px;
+    box-shadow: 5px 10px black;
+}
+
+p {
+    font-size: 20px;
+}
