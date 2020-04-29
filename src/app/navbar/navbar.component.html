@@ -1,4 +1,4 @@
-<div class ="navbar" id="main" style="border-style: solid; border-color: gray; border-width: 1px; width: 100%;">
+<div class ="navbar" id="main">
   <span style="font-size: 40px; cursor:pointer; padding-left: 0px; float: left;" onclick="toggleNav()">
     
     <div class="container" onclick="myFunction(this)">
@@ -7,6 +7,32 @@
       <div class="bar3"></div>
     </div>
   </span>
+
+    <div class="container" style="margin-left: 0px;">
+      <h2>Search</h2>
+    </div>
+
+    <button type="submit" class="btn" data-toggle="modal" data-target="#myModal2"> Info </button>
+<div class="modal fade animate" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content animate-bottom"> <!-- Here you have the juicy hahah -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"> Info </h4>
+      </div>
+      <div class="modal-body">
+        The Tsilhqotin dictionary has 1610 words and phrases and gives approximate search results, 
+        meaning that if you look up a word, it will find all the words that are spelled similarly to that word. 
+        It wont neccessarily find words that are similar in meaning though, so be careful!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+    
 </div>
 
 <div id="mySidenav" class="sidenav" style="background-color: rgb(243, 243, 243);">
